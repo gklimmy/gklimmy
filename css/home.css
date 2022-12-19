@@ -1,0 +1,79 @@
+
+/* 
+H1-----------
+font-family: bradley-djr, sans-serif;
+font-weight: 400;
+font-style: normal;
+*/
+
+/*
+Body
+normal-----------
+font-family: articulat-cf, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+demi bold------------
+font-family: articulat-cf, sans-serif;
+font-weight: 700;
+font-style: normal;
+*/
+
+
+@import url("https://use.typekit.net/elh2rsd.css");
+
+
+body{
+    background-color: pink;
+    font-family: articulat-cf, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("/images/homebg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+h1{
+    font-family: bradley-djr, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9vw;
+    /* margin-left: 5%; */
+    color: white;
+    margin-top: 0;
+    padding-top: 2%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 8%;
+    padding-left: 0px;
+    background-color: transparent;
+}
+
+nav ul li {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 3vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
